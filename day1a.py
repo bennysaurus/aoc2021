@@ -3,7 +3,7 @@ Lines = file1.readlines()
  
 count = 0
 previous = 99999
-# Strips the newline character
+
 for line in Lines:
     if previous < int(line):
         count += 1
